@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<img src="assets/Орхидея1.jpg" alt="my photo" class="avatar" />
+			<h1 class="header__title">Serg Co | HTML</h1>
+			<h2 class="header__subtitle">Frontend</h2>
+		</header>
+
+		<main>
+			<section class="skills">
+				<h3>Skills</h3>
+				<details>
+					<summary>Skills List:</summary>
+					<ul>
+						<li>1.HTML</li>
+						<li>2.CSS</li>
+						<li>3.JavaScript</li>
+						<li>4.React</li>
+						<li>5.TypeScript</li>
+					</ul>
+				</details>
+			</section>
+
+			<article class="article">
+				<h4>Short article about Me</h4>
+				<p>
+					Далеко-далеко за словесными горами в стране гласных и согласных, живут
+					рыбные тексты. Проектах, приставка имеет возвращайся точках знаках
+					запятых ее, несколько строчка lorem сбить одна страну по всей букв
+					большой путь языком жизни!
+				</p>
+			</article>
+
+			<section class="gallery">
+				<h3>Gallery</h3>
+				<img
+					src="https://dummyimage.com/200x250/aaa/fff.jpg&text=i"
+					alt="placehold image"
+				/>
+				<img
+					src="https://dummyimage.com/200x250/aaa/fff.jpg&text=i"
+					alt="placehold image"
+				/>
+				<img
+					src="https://dummyimage.com/200x250/aaa/fff.jpg&text=i"
+					alt="placehold image"
+				/>
+			</section>
+
+			<hr class="separator" />
+
+			<section>
+				<iframe
+					class="video"
+					src="https://www.youtube.com/embed/7Tj6oYEmPkM"
+					title="Михал Веллер / Цитаты"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
+			</section>
+
+			<section class="hobby">
+				<h4>My Hobbies</h4>
+				<details>
+					<summary>Hobbies</summary>
+
+					<ul>
+						<li>Skiing</li>
+						<li>Football</li>
+						<li>Hockey</li>
+					</ul>
+				</details>
+			</section>
+
+			<hr class="separator" />
+
+			<section class="ed">
+				<table class="ed__table">
+					<thead>
+						<tr>
+							<th>School</th>
+							<th>University</th>
+							<th>Year</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2020</td>
+							<td>It School1</td>
+							<td>HTML</td>
+						</tr>
+						<tr>
+							<td>It School2</td>
+							<td>React</td>
+							<td>2025</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section class="quote">
+				<blockquote>Действие это единственный путь к успеху!</blockquote>
+			</section>
+
+			<section class="interaction">
+				<form action="https://ya.ru" method="get" class="form" target="_blank">
+					<fieldset>
+						<legend>Required fields</legend>
+
+						<label for="firstname_id">First Name:</label>
+						<input
+							type="text"
+							name="firstname"
+							id="firstname_id"
+							required
+							class="form__control"
+							placeholder="First Name"
+						/>
+
+						<label for="lastname_id">Last Name:</label>
+						<input
+							type="text"
+							name="lastname"
+							id="lastname_id"
+							required
+							class="form__control"
+							placeholder="Last Name"
+						/>
+
+						<label for="email_id">Email:</label>
+						<input
+							type="email"
+							name="email"
+							id="email_id"
+							required
+							class="form__control"
+							placeholder="Email"
+						/>
+					</fieldset>
+					<br />
+					<textarea
+						name="questions"
+						cols="30"
+						rows="7"
+						class="form__control control-text"
+						placeholder="Your questions"
+					></textarea>
+
+					<button type="submit" class="form_submit">Submit</button>
+				</form>
+			</section>
+		</main>
+		<hr class="separator" />
+		<footer>
+			<address>
+				<a href="mailto:serg@mail.r" class="contact_links">serg@mail.r</a>
+				<br /><br />
+				<a href="tel:+456789098765" class="contact_links">tel:+456789098765</a>
+			</address>
+		</footer>
+	</body>
+</html>
